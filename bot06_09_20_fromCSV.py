@@ -313,7 +313,7 @@ def global_send(vk, id):
     thread.start()
 while 1:
     try:
-        vk_session = VkApi(token="14ddcb3b6b0b32b3eb6267d173aff130fa57d50869ce8aae629a96cd9ef749651c9d5e1705fd7e1683458")
+        vk_session = VkApi(token="VKtoken")
         longpoll = VkBotLongPoll(vk_session, "194668032")
         vk = vk_session.get_api()
 
